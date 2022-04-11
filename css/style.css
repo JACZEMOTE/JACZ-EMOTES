@@ -178,7 +178,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #CF0000;
+  color: #FFF;
 }
 
 .current {
@@ -194,7 +194,7 @@ a:hover {
   text-align: center;
   float: none;
   font-weight: bold;
-  color: #FF0400;
+  color: #FFF;
 }
 
 .FPI  img {
@@ -211,7 +211,7 @@ a:hover {
   text-align: center;
   float: none;
   font-weight: bold;
-  color: #FF0400;
+  color: #FFF;
 }
 .sliderP {
   width: 1080px;
@@ -306,10 +306,11 @@ font-weight: bold;
 }
 
 footer {
-  background: #FF1919;
+  background: #FFA800;
   width: 100%;
   overflow: auto;
 }
+
 .icon-text {
   width: 100%;
   margin: 0 auto;
@@ -337,9 +338,16 @@ footer {
   font-weight: 300;
 }
 
-.footer-nav a:hover {
-  color: #000000;
+.footer-nav a {
+  font-size: 140%;
+  color: #FFF;
+  font-weight: 200;
 }
+
+.footer-nav a:hover {
+  color: #FF2875;
+}
+
 
 .social {
   list-style-type: none;
@@ -358,7 +366,7 @@ footer {
 }
 
 .social i:hover {
-  color: #000000;
+  color: #FF2875;
 }
 li4 img{
   width: 800px;
@@ -387,7 +395,7 @@ footer.second {
 }
 
 footer.second a:hover {
-  color: #000000;
+  color: #FF2875;
 }
 
 footer.second p, .second a {
@@ -395,37 +403,4 @@ footer.second p, .second a {
   color: #FFF;
   font-size: 160%;
   line-height: 155%;
-}
-
-@media screen and (max-width: 1080px) {
-  p {
-    font-size: 100%;
-  }
-  h3 {
-    font-size: 150%;
-  }
-  header {
-    height: 80px;
-    position: relative;
-  }
-  header #logo {
-    margin: 15px 0 20px -25px;
-  }
-
-
-
-
-  .footer-nav {
-    margin: 0 auto;
-    text-align: center;
-    padding: 5%;
-  }
-
-  .footer-nav li {
-    padding: 1%;
-  }
-  .sidebar iframe {
-    float: right;
-    width: 95%;
-  }
 }
