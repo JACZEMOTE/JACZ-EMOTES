@@ -42,7 +42,7 @@ h3 {
   font-size: 175%;
   line-height: 155%;
   font-weight: 500;
-  color: #FF0400;
+  color: #FFF;
   text-align: center;
   text-transform: uppercase;
   padding: 0;
@@ -360,8 +360,8 @@ footer {
 
 .social i {
   font-size: 420%;
-  margin: 1%;
-  padding: 5%;
+  margin: 0.7%;
+  padding: 4%;
   color: #FFF;
 }
 
