@@ -8,8 +8,14 @@
   width: 1300px  ;
   padding: 0 auto;
 }
-#contenidoC{
-justify-content: center;
+F {
+  background-color: #2F2E32;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+  font-family: sans-serif;
+  margin: 0 auto;
 }
 
 #contenido{
@@ -20,7 +26,7 @@ justify-content: center;
   background-attachment: fixed;
 }
 body {
-  background-color: #2B2342;
+  background-color: #2F2E32;
     font-family: sans-serif;
     margin: 0 auto;
 }
@@ -53,7 +59,13 @@ h4 {
   text-transform: uppercase;
   padding: 0;
 }
-
+.sliderpub img {
+  width: 720px;
+  max-width:720px;
+  text-align: center;
+  margin-right: 0 auto;
+  margin-top: 0 auto;
+}
 a {
   color: #FFF;
   text-decoration: none;
@@ -302,7 +314,7 @@ font-weight: bold;
 }
 
 footer {
-  background: #FFA800;
+  background: #BBBBBB;
   width: 100%;
   overflow: auto;
 }
@@ -341,7 +353,7 @@ footer {
 }
 
 .footer-nav a:hover {
-  color: #FF2875;
+  color: #2F2E32;
 }
 
 
@@ -362,11 +374,11 @@ footer {
 }
 
 .social i:hover {
-  color: #FF2875;
+  color: #2F2E32;
 }
 li4 img{
-  width: 800px;
-  max-width:800px;
+  width: 540px;
+  max-width:540px;
   padding-right: 0px;
   margin-left: auto;
   margin-right: auto;
@@ -391,9 +403,8 @@ footer.second {
 }
 
 footer.second a:hover {
-  color: #FF2875;
+  color: #2F2E32;
 }
-
 footer.second p, .second a {
   text-align: center;
   color: #FFF;
