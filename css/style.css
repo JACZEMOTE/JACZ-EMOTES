@@ -8,14 +8,8 @@
   width: 1300px  ;
   padding: 0 auto;
 }
-F {
-  background-color: #2F2E32;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-attachment: fixed;
-  font-family: sans-serif;
-  margin: 0 auto;
+#contenidoC{
+justify-content: center;
 }
 
 #contenido{
@@ -26,7 +20,7 @@ F {
   background-attachment: fixed;
 }
 body {
-  background-color: #2F2E32;
+  background-color: #FF0087;
     font-family: sans-serif;
     margin: 0 auto;
 }
@@ -39,6 +33,14 @@ p {
   text-indent: 2%;
   text-align: center;
 }
+
+.sliderpub2{
+  width: 500px;
+  max-width:500px;
+  padding-right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0 auto;}
 
 h3 {
   font-size: 175%;
@@ -59,13 +61,7 @@ h4 {
   text-transform: uppercase;
   padding: 0;
 }
-.sliderpub img {
-  width: 720px;
-  max-width:720px;
-  text-align: center;
-  margin-right: 0 auto;
-  margin-top: 0 auto;
-}
+
 a {
   color: #FFF;
   text-decoration: none;
@@ -314,7 +310,7 @@ font-weight: bold;
 }
 
 footer {
-  background: #BBBBBB;
+  background: #FFA800;
   width: 100%;
   overflow: auto;
 }
@@ -353,7 +349,7 @@ footer {
 }
 
 .footer-nav a:hover {
-  color: #2F2E32;
+  color: #FF2875;
 }
 
 
@@ -374,11 +370,11 @@ footer {
 }
 
 .social i:hover {
-  color: #2F2E32;
+  color: #FF2875;
 }
 li4 img{
-  width: 540px;
-  max-width:540px;
+  width: 500px;
+  max-width:500px;
   padding-right: 0px;
   margin-left: auto;
   margin-right: auto;
@@ -387,8 +383,8 @@ li4 img{
   text-align: center;
 }
 li2 img{
-  width: 1000px;
-  max-width:1000px;
+  width: 700px;
+  max-width:700px;
   padding-right: 0px;
   margin-left: auto;
   margin-right: auto;
@@ -403,8 +399,9 @@ footer.second {
 }
 
 footer.second a:hover {
-  color: #2F2E32;
+  color: #FF2875;
 }
+
 footer.second p, .second a {
   text-align: center;
   color: #FFF;
